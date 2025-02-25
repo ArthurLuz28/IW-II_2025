@@ -1,1 +1,0 @@
-console.log("Ore wa Zangetsu da");
