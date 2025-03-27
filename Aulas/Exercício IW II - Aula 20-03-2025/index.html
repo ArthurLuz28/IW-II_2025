@@ -7,14 +7,15 @@
     <script>
         let nota = parseFloat(prompt("Digite a nota do aluno:"));
 
-        if (nota >= 7) {
+        if (nota >= 7 && nota <= 10) {
             alert("Aprovado ✅");
         } else if (nota >= 5 && nota < 7) {
             alert("Recuperação ⚠️");
+        } else if (nota > 10) {
+            alert("Insira uma nota válida");
         } else {
             alert("Reprovado ❌");
         }
-
     </script>
 </head>
 <body>
