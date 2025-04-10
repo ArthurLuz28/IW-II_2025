@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula dia 10/04/2025 - Exercício 04</title>
+</head>
+<body>
+    <script>
+
+        let num = parseFloat(prompt("Digite um número: ")); //Pega o valor do usuário
+
+        while(num !== 0) { //Se o valor for diferente de 0, faz o loop
+            console.log(num); //Exibe cada vez que o while faz um loop
+            if (num > 0) { //Se o valor for positivo, diminui até 0
+                num--;
+            } else { //Se o valor for negativo, soma até 0
+                num++;
+            }
+        }
+        console.log(num); //Exibe o resultado final
+        alert("Verifique o console (f12)");
+    </script>
+</body>
+</html>

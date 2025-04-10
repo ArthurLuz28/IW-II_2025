@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula dia 10/04/2025 - Exercício 02</title>
+</head>
+<body>
+    <script>
+
+        let idade = parseFloat(prompt("Digite sua idade:")); //Pegar a idade do usuário
+
+        if (idade >= 18 && idade <= 99) { //Se a idade for >= 18 o usuário é maior de idade
+            alert("Você tem " + idade + " anos, você é maior de idade!");
+        } else if (idade == 100) {
+            alert("Você tem " + idade + " anos, (é um século já!) você é maior de idade.");
+        } else if (idade > 100) {
+            alert("Você tem " + idade + " anos, (é mais que um século, rapaz!) você é maior de idade.");
+        } else if (idade <  0) {
+            alert("Você ainda nem nasceu!");
+        } else {
+            alert("Você tem " + idade + " anos, você é menor de idade!"); //Se não for >=18 o usuário é menor de idade
+        }
+    </script>
+</body>
+</html>
